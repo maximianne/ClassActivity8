@@ -41,8 +41,6 @@ class VillagerAdapter (private val dataset: List<Villager>): RecyclerView.Adapte
 
     }
 
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VillagerAdapter.ItemViewHolder {
         val adapterLayout= LayoutInflater.from(parent.context).inflate(R.layout.item_villager, parent, false)
         return ItemViewHolder(adapterLayout);
